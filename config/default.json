@@ -1,3 +1,4 @@
 {
-  "base_url": "http://automationpractice.com/index.php"
+  "base_url": "http://automationpractice.com/index.php",
+  "browser": "chrome"
 }
