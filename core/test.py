@@ -5,6 +5,10 @@ from utils.utils import browser
 
 class Test(TestCase):
 
+    @classmethod
+    def setUpClass(cls):
+        cls.driver = cls.get_driver()
+
     @staticmethod
     def get_driver() -> webdriver.WebDriver:
         if browser().lower() == 'chrome':

@@ -6,7 +6,7 @@ class TestHomePage(Test):
 
     @classmethod
     def setUpClass(cls):
-        cls.driver = super().get_driver()
+        super().setUpClass()
         HomePage(cls.driver).open()
 
     def test_submit_search(self):
